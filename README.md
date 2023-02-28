@@ -1,8 +1,12 @@
 ### PHASE 3 PROJECT
 
-#### Projects name
+#### Project name
 
-    -
+    - Kitabu Reviews
+
+#### Project description
+
+    - Kitabu Reviews reviews literature books by commenting and rating the books.
 
 #### author information
 
