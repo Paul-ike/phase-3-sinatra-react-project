@@ -4,28 +4,28 @@ puts "🌱 Seeding data..."
     Book.create(
         title: "A Glass of Blessings",
         image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/AGlassOfBlessings.jpg/220px-AGlassOfBlessings.jpg",
-        genre: "Novel",
+        author: "Barbara Pym",
         price: 800
     )
 
     Book.create(
         title: "His Dark Materials",
         image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/HisDarkMaterials1stEdition.jpg/220px-HisDarkMaterials1stEdition.jpg",
-        genre: "Children's literature",
+        author: "Phillip Pullman",
         price: 1000
     )
 
     Book.create(
         title: "Down to a Sunless Sea",
         image: "https://upload.wikimedia.org/wikipedia/en/b/b4/DownToASunlessSea.jpg",
-        genre: "Adventure fiction",
+        author: "David Graham",
         price: 500
     )
 
     Book.create(
         title: "The Book of Dust",
         image: "https://upload.wikimedia.org/wikipedia/en/0/0e/La_Belle_Sauvage.jpg",
-        genre: "Fantasy",
+        author: "Phillip Pullman",
         price: 750
     )
 

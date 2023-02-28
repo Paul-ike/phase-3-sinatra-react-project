@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2023_02_28_094610) do
   create_table "books", force: :cascade do |t|
     t.binary "image"
     t.string "title"
-    t.string "genre"
+    t.string "author"
     t.integer "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
