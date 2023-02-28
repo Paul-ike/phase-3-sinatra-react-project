@@ -24,7 +24,7 @@
 
 ##### Entity Relational Diagram
 
-![Screenshot](./image/1.png)
+![Screenshot](./image/2.png)
 [![ERD Link](link)](https://dbdiagram.io/d/63fdcc05296d97641d84462e)
 
 ##### BDD
