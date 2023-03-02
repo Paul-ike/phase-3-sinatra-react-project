@@ -43,5 +43,5 @@ class ApplicationController < Sinatra::Base
     book = Book.find(params[:id])
     book.to_json(include: :reviews)
   end
-
+  # * "⭐"
 end
