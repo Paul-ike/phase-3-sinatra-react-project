@@ -34,6 +34,9 @@ gem "rake", "~> 13.0"
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
+gem 'psych', '< 4'
+
+
 # Used to generate seed data
 # https://github.com/faker-ruby/faker
 gem "faker", "~> 2.18"
