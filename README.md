@@ -65,4 +65,4 @@ Copyright 2023 Paul Wanyoike Ngugi Licensed under [MT License](https://github.co
 
 #### Video Link
 
-[![Watch the video](🎬)]()
+[![Watch the video](🎬)](https://drive.google.com/file/d/1_VxRr5nDDNzR7epsTfEyxMYn6exTHrp0/view)
