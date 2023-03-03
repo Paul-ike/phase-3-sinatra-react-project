@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2023_02_28_094610) do
   enable_extension "timescaledb"
 
   create_table "books", force: :cascade do |t|
-    t.binary "image"
+    t.string "image"
     t.string "title"
     t.string "author"
     t.integer "price"
