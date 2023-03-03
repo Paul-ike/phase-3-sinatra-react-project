@@ -1,1 +1,1 @@
-port ENV['RAILS_ENV'] || 6675
+port ENV['RAILS_ENV'] || 4567
