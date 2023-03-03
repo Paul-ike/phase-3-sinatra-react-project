@@ -17,7 +17,7 @@ puts "🌱 Seeding data..."
 
     Book.create(
         title: "The Three Musketeers",
-        image: "https://www.jocolibrary.org/sites/default/files/2021-02/The%20Three%20Musketeers%20Alexandre%20Dumas.jpg",
+        image: "https://images.booksense.com/images/413/815/9781641815413.jpg",
         author: "Alexandre Dumas",
         price: 500
     )
@@ -52,7 +52,7 @@ puts "🌱 Seeding data..."
 
 10.times do
     Review.create(
-        star_rating: rand(0..5),
+        star_rating: rand(50..100),
         comment: Faker::Lorem.sentence,
         book_id: rand(1..7)
     )
