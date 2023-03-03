@@ -6,7 +6,7 @@
 
 #### Project description
 
-    - Kitabu Reviews reviews literature books by commenting and rating the books.
+    - Kitabu Reviews reviews literature books by creating a book, seeing a list of books, updating a single book and deleting a book.
 
 #### author information
 
@@ -22,9 +22,6 @@
     - Run this command on the terminal to run the server:
       console $ bundle install
       console $ bundle exec rake server
-    - Run the deployed react app down below
-
-[![REACT APP Link](link)]()
 
 ##### Entity Relational Diagram
 
@@ -35,7 +32,11 @@
 
 As a user should;
 
-    -
+    - be able to add literature books
+    - be able to see a list of books
+    - be able to view the details of a single book including the books reviews (rating and comments)
+    - be able to update the details of a single book
+    - be able to delete a book
 
 ##### Known Bugs
 
@@ -60,7 +61,7 @@ As a user should;
 
 #### License and Copyright Information
 
-Copyright 2023 Paul Wanyoike Ngugi Licensed under [MT License]()
+Copyright 2023 Paul Wanyoike Ngugi Licensed under [MT License](https://github.com/Paul-ike/phase-3-sinatra-react-project/blob/main/LICENSE.md)
 
 #### Video Link
 
