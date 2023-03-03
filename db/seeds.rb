@@ -40,14 +40,14 @@ puts "🌱 Seeding data..."
         title: "Northern Lights",
         image: "https://m.media-amazon.com/images/I/71brDjQYnaL.jpg",
         author: "Philip Pullman",
-        price: 1500
+        price: 1800
     )
 
     Book.create(
         title: "The Name of the Wind",
         image: "https://m.media-amazon.com/images/I/71jJcPTGd3L.jpg",
         author: "Patrick Rothfuss",
-        price: 1500
+        price: 1350
     )
 
 10.times do
