@@ -14,12 +14,7 @@ class ApplicationController < Sinatra::Base
       author: params[:author],
       price: params[:price]
     )
-    book.save()
-
-    {
-      "Message": "Created successfully",
-      "Status": "HTTP_200_OK"
-    }.to_json()
+    book.to_json()
   end
 
   get "/book/:id" do
@@ -41,10 +36,7 @@ class ApplicationController < Sinatra::Base
   delete '/deletebook/:id' do
     book = Book.find(params[:id])
     book.destroy
-    {
-      "message":"Successfully Delete Hackathon #{params[:id]}",
-      "Status":"HTTP_Status_OK"
-    }.to_json()
+    book.to_json()
   end
 
   get "/reviews/:id" do
